@@ -6,14 +6,15 @@
 #    By: aaphane <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/27 15:22:32 by aaphane           #+#    #+#              #
-#    Updated: 2019/06/28 12:19:32 by aaphane          ###   ########.fr        #
+#    Updated: 2019/06/29 06:15:56 by aaphane          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
-SOURCES =	ft_strncat.c\
+SOURCES =	ft_getnewline.c\
+			ft_strncat.c\
 			ft_isdigit.c\
 			ft_putstr_fd.c\
 			ft_strequ.c\
@@ -116,7 +117,8 @@ OBJECTS =	ft_atoi.o\
 		  	ft_putstr_fd.o\
 		  	ft_strequ.o\
 		  	ft_strncat.o\
-		  	ft_strstr.o
+		  	ft_strstr.o\
+		  	ft_getnewline.o
 all: $(NAME)
 
 $(NAME):
